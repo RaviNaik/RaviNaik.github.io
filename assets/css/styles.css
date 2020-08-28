@@ -11,6 +11,8 @@
     background: #54B689;
     color: #fff;
     overflow-y: auto;
+    scrollbar-color: rgba(0,0,0,0.2) #54B689;
+    scrollbar-width: thin;
 }
 .profile-image {
     max-width: 160px;
@@ -41,4 +43,13 @@
 }
 .tech-title{
     font-size: 1rem;
+}
+
+.header::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.2);
+    border-radius: .5rem;
+}
+.header::-webkit-scrollbar {
+    width: 6px;
+    background-color: #54B689;
 }
