@@ -1,2 +1,1 @@
-# RaviNaik.github.io
-Personal website
+## Ravi Naik's Personal Website
